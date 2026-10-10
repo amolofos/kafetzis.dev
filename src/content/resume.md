@@ -3,7 +3,7 @@ title = "Resume"
 +++
 
 <div style="align-items: right;">
-Download as pdf <a style="display: inline-block;" href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.54/DimitrisKafetzis-cv-en-oneColumn.v1.0.54.pdf" target="blank"><img src="icons8-pdf-12.png" alt="cv" title="cv"></a>
+Download as pdf <a style="display: inline-block;" href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.61/DimitrisKafetzis-cv-en-oneColumn.v1.0.61.pdf" target="blank"><img src="icons8-pdf-12.png" alt="cv" title="cv"></a>
 </div>
 
 <div style="text-align: center;">
@@ -18,13 +18,13 @@ Download as pdf <a style="display: inline-block;" href="https://github.com/amolo
     <li style="display: inline-block;"><a href="mailto:dimitris@kafetzis.dev" target="blank"><img src="email_icon.png" alt="email" title="mailto:dimitris@kafetzis.dev"></a></li>
     <li style="display: inline-block;"><a href="https://www.linkedin.com/in/kafetzisd" target="blank"><img src="icons8-linkedin.svg" alt="LinkedIn: kafetzisd" title="LinkedIn: kafetzisd"></a></li>
     <li style="display: inline-block;"><a href="https://github.com/amolofos" target="blank"><img src="icons8-github.svg" alt="Github: amolofos" title="Github: amolofos"></a></li>
-    <li style="display: inline-block;"><a href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.54/DimitrisKafetzis-cv-en-oneColumn.v1.0.54.pdf" target="blank"><img src="pdf_icon.png" alt="cv as pdf" title="cv as pdf"></a></li>
+    <li style="display: inline-block;"><a href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.61/DimitrisKafetzis-cv-en-oneColumn.v1.0.61.pdf" target="blank"><img src="pdf_icon.png" alt="cv as pdf" title="cv as pdf"></a></li>
 
   </ul>
 </div>
 
 <div style="text-align: center;">
-My experience spans across 12 YoE designing and building heavily transactional, distributed, relational database backed systems. The last 4 years I have made a shift on the SRE problem domain.
+My experience spans across 14 YoE designing and building heavily transactional, distributed, relational database backed systems. The last 6 years I have made a shift on the SRE problem domain and Platform Engineering.
 </div>
 
 ----
@@ -37,9 +37,11 @@ hand -->
 <span>Sept 2024 - Present</br>
 Adyen - Singapore</span>
 
-Joined as a member of the global SRE team.
+Joined the global SRE and the Cloud Services teams.
 
-- Eased the onboarding by structuring and writing an intro-to-platform course.
+- Took ownership of legacy systems, supporting ~1.5k servers automating their provisioning.
+- Completed the fine tuning of Linux kernel tcp settings across multiple teams reducing the recovery time from 2 hours to 2.2 minutes.
+- Built a load testing MVP aiming to reduce preparation for critical events from months to 2 weeks.
 
 ### <span>Site Reliability Engineer (SRE) | Platform Engineer</span>
 <span>Nov 2022 - Aug 2024</br>
