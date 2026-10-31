@@ -3,11 +3,11 @@ title = "Resume"
 +++
 
 <div style="align-items: right;">
-Download as pdf <a style="display: inline-block;" href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.61/DimitrisKafetzis-cv-en-oneColumn.v1.0.61.pdf" target="blank"><img src="icons8-pdf-12.png" alt="cv" title="cv"></a>
+Download as pdf <a style="display: inline-block;" href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.62/DimitrisKafetzis-cv-en-oneColumn.v1.0.62.pdf" target="blank"><img src="icons8-pdf-12.png" alt="cv" title="cv"></a>
 </div>
 
 <div style="text-align: center;">
-  <p style="font-size: 3em;">Dimitrios Andreas Kafetzis</p>
+  <p style="font-size: 3em;">Kafetzis, Dimitrios Andreas</p>
 
   <p style="font-size: 1.5em;">Site Reliability and Platform Engineering</p>
 </div>
@@ -18,13 +18,13 @@ Download as pdf <a style="display: inline-block;" href="https://github.com/amolo
     <li style="display: inline-block;"><a href="mailto:dimitris@kafetzis.dev" target="blank"><img src="email_icon.png" alt="email" title="mailto:dimitris@kafetzis.dev"></a></li>
     <li style="display: inline-block;"><a href="https://www.linkedin.com/in/kafetzisd" target="blank"><img src="icons8-linkedin.svg" alt="LinkedIn: kafetzisd" title="LinkedIn: kafetzisd"></a></li>
     <li style="display: inline-block;"><a href="https://github.com/amolofos" target="blank"><img src="icons8-github.svg" alt="Github: amolofos" title="Github: amolofos"></a></li>
-    <li style="display: inline-block;"><a href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.61/DimitrisKafetzis-cv-en-oneColumn.v1.0.61.pdf" target="blank"><img src="pdf_icon.png" alt="cv as pdf" title="cv as pdf"></a></li>
+    <li style="display: inline-block;"><a href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.62/DimitrisKafetzis-cv-en-oneColumn.v1.0.62.pdf" target="blank"><img src="pdf_icon.png" alt="cv as pdf" title="cv as pdf"></a></li>
 
   </ul>
 </div>
 
 <div style="text-align: center;">
-My experience spans across 14 YoE designing and building heavily transactional, distributed, relational database backed systems. The last 6 years I have made a shift on the SRE problem domain and Platform Engineering.
+Software engineer with 14 years building high-throughput, transactional, distributed systems; the last 6 focused on reliability, observability and platform engineering.
 </div>
 
 ----
@@ -39,8 +39,8 @@ Adyen - Singapore</span>
 
 Joined the global SRE and the Cloud Services teams.
 
-- Took ownership of legacy systems, supporting ~1.5k servers automating their provisioning.
-- Completed the fine tuning of Linux kernel tcp settings across multiple teams reducing the recovery time from 2 hours to 2.2 minutes.
+- Owned legacy systems, $\sim$1.5k servers, saving 1 week per month through automated provisioning.
+- Tuned Linux kernel TCP settings, cutting MTTR (app recovery time) from 2 hours to 2.2 minutes.
 - Built a load testing MVP aiming to reduce preparation for critical events from months to 2 weeks.
 
 ### <span>Site Reliability Engineer (SRE) | Platform Engineer</span>
@@ -49,11 +49,11 @@ VegaSolutions / TokkaLabs / Native / RangeProtocol - Singapore</span>
 
 Joined as the first dedicated SRE/Platform engineer under Vega Solutions bulding a platform to support multiple tenants. The last months of my journey with these companies, June - August 2024, my employment moved under Tokka Labs.
 
-- Designed and implemented new system architecture (AWS -> AWS) improving externally exposed service latency below 500ms (from ~1s) and supporting multiple regions (provisioning a new region with full services takes less than 2 days).
-- Introduced shared services such as SSO, Vault eliminating the need for different accounts per service.
-- Created template integrations for instrumenting nodejs and python services against Prometheus, Grafana and Jaeger improving visibility and allowing engineers to investigate production issues in a matter of minutes.
-- Refactored helm templates and value files by introducing separation and hierarchy simplifying them and easing their maintenance. This allowed application engineers to automatically generate them and reduce the introduction of new services from a couple of days to a few minutes.
-- Pushed for a cloud native architecture by provisioning databases inside k8s and advocating for k8s only deployments. Succeeded in deploying small mysql, postgres/timescale and redis clusters in k8s.
+- Designed and implemented our cloud architecture reducing latency from +1s to below 500ms.
+- Managed 9 Kubernetes clusters across 3 regions provisioning a new region in 2 days end to end.
+- Instrumented Node.js and Python services to reduce investigation time down to minutes.
+- Refactored Helm charts reducing introduction of new services from a couple of days to a few minutes.
+- Pushed for pure cloud native architecture. Succeeded in deploying small database clusters in k8s.
 
 ### <span>Site Reliability Engineer (SRE)</span>
 <span>Sept 2021 - Oct 2022 (1yr 1mo)</br>
@@ -62,8 +62,7 @@ Bytedance - Global E-commerce TikTok - Singapore</span>
 Joined the newly formed SRE team supporting the Global E-commerce function of TikTok.
 
 - Implemented a Kubernetes sidecar measuring the availability SLI of more than 200 HTTP services.
-- Analysed SLI based alerts and pushed for adoption of error budget burn rate approach.
-- Designed and implemented the MVP version of an incident record tool aiming to reduce the manual bookkeeping activities during oncall cases and build a knowledge base based on them.
+- Designed and built the MVP of an incident recording platform, released in alpha/beta for evaluation.
 
 ### <span>Principal Integration Engineer | Site Reliability Engineer</span>
 <span>Aug 2020 - Sep 2021 (1 yr 2 mos)</br>
@@ -77,7 +76,7 @@ OpenBet - Singapore</span>
 OpenBet - Singapore</span>
 
 - Led a team of 3 engineers with the goal to harden the funding flow ensuring eWallet integrity resulting in a drop of 1 incident per week to 1 per year.
-- Enhanced the performance of slow database queries bring the number of production incidents due to human design error down to zero (0).
+- Optimised slow database queries, permanently eliminating the related production incidents.
 - Investigated more than 20 high profile production issues and presented 4 sensitive incidents to C level stakeholders.
 - Migrated 80 million lottery bets to renewed, more robust data model.
 
@@ -86,10 +85,9 @@ OpenBet - Singapore</span>
 OpenBet - Singapore</span>
 
 - Coordinated development of cross functional features amongst teams of different locations with a goal to rollout our solution to a new tier 1 customer.
-- Owned the data migration into the new platform including 100 million rows of transaction history and user activity and completed in under 3 hours.
+- Owned the data migration of 100 million rows of transaction history completed in under 3 hours.
 - Designed distributed queries for Informix database materialising the reporting needs of the Finance and Trading departments.
-- Influenced the release process from code to production increasing the delivery capacity of the team.
-- Rewrote the ansible deployment scripts reducing to zero the release introduced incidents.
+- Refactored the release and deployment process, eliminating the root cause of release-related incidents.
 
 ### <span>Software Engineer</span>
 <span>Nov 2012 - Sep 2015 (2 yrs 11 mos)</br>
